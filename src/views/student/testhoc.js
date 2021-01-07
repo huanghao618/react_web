@@ -8,6 +8,7 @@ class TestHoc extends React.Component{
         return(
             <div>
                 <h1>测试高阶组件</h1>
+        <div>{this.props.msg+1}</div>
         <div>{this.props.onDa()}</div>
             </div>
         )

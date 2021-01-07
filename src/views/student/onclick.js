@@ -47,7 +47,7 @@ export default class User extends React.Component{
            <button onClick={this.aa.bind(this)}>更改数据</button>
           
            <Child aaa="111" ccc={this.state.msg}></Child>
-           <Child2 bbb="122" ccc={true}></Child2>
+           <Child2 bbb={"wqw"} ccc={true}></Child2>
         </div>
         )
     }
