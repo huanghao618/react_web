@@ -16,6 +16,7 @@ import HookuseRef from "./student/hookuseRef.jsx";
 import HookuseState from "./student/hookuseState.jsx";
 import HookuseEffect from "./student/hookuseEffect.jsx";
 import HookuseCallback from "./student/hookuseCallback.jsx";
+import TS from "./student/TS.ts";
 
 const Home = loadable(() => import("./home"));
 const HomeDetail = loadable(() => import("./home/homedetail"));
@@ -131,5 +132,11 @@ export default [
     path: "/hookuseCallback",
     component: HookuseCallback,
     text: "hookuseCallback",
+  },
+  {
+    id: 18,
+    path: "/TS",
+    component: TS,
+    text: "TS",
   },
 ];
